@@ -95,5 +95,6 @@ func main() {
 	router.GET("/todo/:id",getTodo)
 	router.PATCH("/todo/:id",getTodo)
 	router.POST("/todo",addTodo)
+	
 	router.Run("localhost:9090")
 }
